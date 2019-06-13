@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+
+.carousel-control-prev, .carousel-control-next {
+  width: 6%;
+  opacity: 1; }
+  .carousel-control-prev i, .carousel-control-next i {
+    font-size: 40px; }
+
+.btn-primary {
+  color: blue; }
+
+.btn-danger {
+  color: red; }
+
+.btn-success {
+  color: green; }
+
+.col-var {
+  width: 100%; }
+
+.col-var {
+  width: 50%; }
+
+.col-var {
+  width: 33.3333333333%; }
+
+.col-var {
+  width: 25%; }
+
+.col-var {
+  width: 20%; }
+
+.header {
+  background-color: black;
+  text-align: right;
+  padding: 10px 7%; }
+  .header a {
+    font-size: 13px;
+    color: #999;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px; }
+    .header a:hover {
+      color: #00adef; }
+      .header a:hover span:first-child {
+        border-color: #00adef; }
+    .header a span:first-child {
+      display: inline-block;
+      border: 1px solid #999;
+      font-size: 11px;
+      padding: 0 5px; }
+
+.myNavBar {
+  background-color: black; }
+  .myNavBar .myNavBar_content {
+    width: 90%;
+    margin: auto; }
+    .myNavBar .myNavBar_content .navbar-brand img {
+      width: 65px;
+      margin-right: 20px; }
+    .myNavBar .myNavBar_content .navbar-brand span {
+      font-size: 17px; }
+    .myNavBar .myNavBar_content .nav-item {
+      margin-right: 10px;
+      position: relative; }
+      .myNavBar .myNavBar_content .nav-item .nav-link {
+        color: #999;
+        font-size: 17px; }
+        .myNavBar .myNavBar_content .nav-item .nav-link:hover {
+          color: #00adef; }
+    .myNavBar .myNavBar_content .line {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      width: 1px;
+      height: 30px;
+      background-color: #999; }
+
+.intro {
+  background-color: #999;
+  padding: 20px; }
+  .intro .intro_content .nav {
+    color: white;
+    width: 70%;
+    margin: auto; }
+    .intro .intro_content .nav .nav-link {
+      color: white; }
+      .intro .intro_content .nav .nav-link:hover {
+        color: blue; }
+  @media screen and (max-width: 992px) {
+    .intro .intro_content {
+      width: 80%; } }
+  @media screen and (max-width: 765px) {
+    .intro .intro_content {
+      width: 90%; } }
+
+.myCarousel {
+  position: relative; }
+  .myCarousel .carousel-caption {
+    top: 150px;
+    left: 8%;
+    right: unset;
+    bottom: unset;
+    width: 50%; }
+    .myCarousel .carousel-caption .underline {
+      width: 10%;
+      height: 2px;
+      margin-bottom: 20px;
+      background: white; }
+    .myCarousel .carousel-caption h1 {
+      color: white;
+      font-size: 40px;
+      font-weight: normal; }
+  .myCarousel .input-group {
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    width: 80%; }
+    .myCarousel .input-group .form-control {
+      padding: 10px; }
+    .myCarousel .input-group .bton {
+      padding: 10px; }
+  @media screen and (max-width: 992px) {
+    .myCarousel .carousel-caption {
+      top: 50px; }
+      .myCarousel .carousel-caption h1 {
+        color: white;
+        font-size: 20px;
+        font-weight: normal; } }
+
+.welcome {
+  margin-top: 40px;
+  margin-left: 40px; }
+  .welcome h6 {
+    font-size: 40px;
+    font-weight: bold; }
+  .welcome p {
+    font-size: 14px; }
+  .welcome .underline {
+    width: 10%;
+    height: 2px;
+    margin-bottom: 20px;
+    background: black; }
+
+.navbar_about {
+  padding: 30px;
+  background-color: black; }
+  .navbar_about .nav-item {
+    margin-right: 40px; }
+    .navbar_about .nav-item .nav-link {
+      color: black;
+      border: 1px solid white;
+      padding: 10px 80px;
+      background-color: #999;
+      color: white; }
+      .navbar_about .nav-item .nav-link .active {
+        color: #00adef; }
+
+.btn-dark {
+  color: white;
+  background-color: black;
+  padding: 5px 20px; }
+
+/*# sourceMappingURL=main.css.map */
